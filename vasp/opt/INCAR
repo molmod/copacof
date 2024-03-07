@@ -1,0 +1,24 @@
+General:
+    SYSTEM = COF
+    ISTART = 0
+    ISMEAR = 0  
+    SIGMA = 0.05
+    EDIFF = 1.0E-6
+    EDIFFG = 1.0E-5
+    ENCUT = 500
+    ISYM = 0
+    NELM = 300
+    PREC = Accurate
+    NELMIN = 8
+    LWAVE = .FALSE.
+    LCHARG = .FALSE.
+    LASPH = .TRUE. 
+    NCORE = 28
+
+Van der Waals Interaction (vasp 5.3.5 patched verion):
+    IVDW = 12
+
+dynamic:
+    IBRION = 2        ! Conjugate gradient
+    NSW    = 100      ! Number of ionic steps
+    ISIF   = 4        ! 
