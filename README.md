@@ -1,13 +1,13 @@
 # COPACOF: a computational protocol for the assignment of NMR resonances in covalent organic frameworks
-<p align="center">
+
  ![logo](logo.png)
-</p>
+
 
 (siebevanlommel 2026)
 /spectrum uses molmod+yaff library dependencies, which can break on newer Ubuntu versions
 /spectrum_ase uses an networkx+ase solution, which should fix this
 
-This repository contains data related to the following publication in ACS-JCTC: <https://doi.org/10.1021/acs.jctc.3c01414>. The folder `vasp/` contains input files for the structural optimization and NMR calculations of the covalent organic framework materials studied. The folders `spectrum/` and  contains the following Python scripts and files, which may be used to produce a computational NMR spectrum based on theoretical shielding data using the gs model as described in the main text:  
+This repository contains data related to the following publication in ACS-JCTC: <https://doi.org/10.1021/acs.jctc.3c01414>. The folder `vasp/` contains input files for the structural optimization and NMR calculations of the covalent organic framework materials studied. The folders `spectrum/` and `spectrum_ase/` contains the following Python scripts and files, which may be used to produce a computational NMR spectrum based on theoretical shielding data using the gs model as described in the main text:  
   (a) `classify_carbon.py`  
   (b) `gs_model.py`  
   (c) Input and output files as an example of the usage of the scripts.  
